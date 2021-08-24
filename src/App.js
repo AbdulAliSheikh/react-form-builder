@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import RootView from './pages/root/root';
+import CreateView from './pages/create/create';
+import ValidateView from './pages/validate/validate';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <BrowserRouter>
+        <Switch>
+          <Route path='/create/:id'>
+            <CreateView />
+          </Route>
+          <Route path='/create'>
+            <CreateView />
+          </Route>
+          <Route path='/validate/:id'>
+            <ValidateView />
+          </Route>
+          <Route path='/'>
+            <RootView />
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

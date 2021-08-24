@@ -1,0 +1,47 @@
+.round-button {
+    transition: 0.3ms all ease-in;
+    border: none;
+    border-radius: 50px;
+    width: 250px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.inverted {
+    background: white;
+    color: #0b78fa;
+    border: 1px solid #0b78fa;
+}
+
+.dotted {
+    border: 1px dashed white;
+    background-color: #0b78fa;
+    color: white;
+}
+
+.round-button:hover {
+    transform: scale(1.1);
+}
+
+.round-button svg {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.date {
+    background-color: transparent;
+    border-radius: 0;
+    width: 100%;
+    padding-left: 50px;
+    margin: 0;
+    color: white;
+}
+
+.date:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: none;
+}

@@ -1,0 +1,6 @@
+.validate-preview .drop-elem table td {
+    resize: none;
+}
+.validate-preview .drop-elem table td:after, .drop-elem table tr:after {
+    display: none;
+}
