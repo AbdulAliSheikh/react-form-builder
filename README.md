@@ -1,5 +1,15 @@
 # React Dynamic Form Builder
 
+List Screen: 
+
+![Alt text](https://verse-bucket-dev.s3.amazonaws.com/1630068289084-create-2.png)
+Drag and Droppable Screen:
+
+![Alt text](https://verse-bucket-dev.s3.amazonaws.com/1630067776608-dropable-screen.png)
+Validate Screen
+
+![Alt text](https://verse-bucket-dev.s3.amazonaws.com/1630067834484-validate.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
